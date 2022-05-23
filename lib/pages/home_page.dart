@@ -15,7 +15,8 @@ class HomePage extends StatelessWidget {
       body: Center(
           child: Container(
               child: Text(
-                  "new hello Archana ffyou are $days $name AWESOME!!" + name))),
+                  "suprmanm new hello Archana ffyou are $days $name AWESOME!!" +
+                      name))),
       drawer: Drawer(),
     );
   }
