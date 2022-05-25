@@ -14,10 +14,8 @@ class HomePage extends StatelessWidget {
       appBar: AppBar(
         title: Text("$name Catalog"),
       ),
-      body: Center(
-          child: Container(
-              child:
-                  Text("hello Archana ffyou are $days $name AWESOME!!$name"))),
+      body:
+          Center(child: Container(child: Text(context.runtimeType.toString()))),
       drawer: const MyDrawer(),
     );
   }
