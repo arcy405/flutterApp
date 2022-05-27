@@ -1,10 +1,10 @@
-import 'package:flutter/cupertino.dart';
+// @dart=2.9
+
 import 'package:flutter/material.dart';
-import 'package:flutter_catalog/pages/home_page.dart';
 import 'package:flutter_catalog/pages/login_page.dart';
 import 'package:flutter_catalog/utils/routes.dart';
-import 'package:flutter_catalog/widgets/themes.dart';
-import 'package:matcher/matcher.dart';
+import 'pages/home_page.dart';
+import 'widgets/themes.dart';
 
 void main() {
   runApp(MyApp());
