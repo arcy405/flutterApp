@@ -38,7 +38,7 @@ class MyTheme {
               color: Colors.white,
             ),
             titleTextStyle: TextStyle(
-                color: Colors.black,
+                color: Colors.white,
                 fontWeight: FontWeight.w500,
                 fontSize: 20)),
       );
